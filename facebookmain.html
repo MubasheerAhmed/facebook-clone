@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="facebookmain.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="fontawesome-free-5.14.0-web/css/all.css" rel="stylesheet">
+    <script src="./jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <!-- header part -->
+    <div class="aa">
+        <div id="a1"><a href="facebookmain.html"><i class="fab fa-facebook-square"></i></i></a>
+            <span id="vis">
+                Go to Facebook Home</span>
+        </div>
+        <div id="a2">
+            <input type="text" placeholder="Search">
+            <button><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+        <a href="./myfacebook.html"><div id="a3"><img src="./Images/mubasheer.jpg" alt="">
+            <div id="a31">Mubasheer</div>
+        <span id="vis">Profile</span>
+        </div></a>
+        <a href="./facebookmain.html"><div id="a4">Home</div></a>
+        <a href="./facebookfriends.html"><div id="a5">Find Friends</div></a>
+        <a href=""><div id="a6">Create</div></a>
+        <a href=""><div id="a7"><i class="fa fa-user-friends" aria-hidden="true"></i></a>
+        <span id="vis">Friend Requests</span></div></a>
+        <a href=""><div id="a8"><i class="fab fa-facebook-messenger"></i><span id="vis">Messages</span></div></a>
+        <a href=""><div id="a9"><a href=""><i class="fa fa-bell" aria-hidden="true"></i><span id="vis">Notifications</span></div></a>
+        <a href=""><div id="a10"><a href=""><i class="fa fa-question-circle" aria-hidden="true"></i><span id="vis">Quick Help</span></div></a>
+        <div id="a11" onclick="down()"><i class="fa fa-sort-desc" aria-hidden="true">
+           <div id="a12"><ul>
+            <a href=""><li id="a13"> Find Groups</li></a>
+                <hr>
+            <a href=""><li id="a13">Advertising on Facebook</li></a>
+                <hr >
+            <a href=""><li id="a13"> Activity Log</li></a>
+            <a href=""><li id="a13">News Feed Preferences</li></a>
+            <a href=""><li id="a13">Settings</li></a>
+                <hr>
+            <a href="./login.html"><li id="a13">Log Out</li></a>
+                </ul>
+            </div></i></div>
+    </div>
+
+<!-- side list part -->
+<div id="b0">
+    <ul id="b1">
+        <li id="b2">
+            <a href="./myfacebook.html"><img  id="bimg" src="./Images/mubasheer.jpg" alt=""><div id="b21">Mubasheer </div>
+            </a>
+            <span id="vis">Mubasheer</span>
+        </li>
+        <li id="b3">
+            <a href=""><img id="bimg1" src="./Images/NewsFeed.jpeg" alt="">
+            <div id="b21"><b>News Feed</b></div>
+            </a>
+            <span id="vis">News Feed</span>
+        </li>
+        <li id="b2">
+            <a href=""><img id="bimg12" src="./Images/Messenger.jpeg" alt="">
+            <div id="b21">Messenger</div>
+            </a>
+            <span id="vis">Messenger</span>
+        </li>
+        <li id="b2">
+            <a href=""><img id="bimg11" src="./Images/Watch.jpeg" alt="">
+            <div id="b21">Watch</div>
+            </a>
+            <span id="vis">Watch</span>
+        </li>
+        <li id="b2">
+            <a href=""><img id="bimg123" src="./Images/Marketplace.jpeg" alt="">
+            <div id="b21">Marketplace</div>
+            </a>
+            <span id="vis">Marketplace</span>
+        </li>
+        <li>
+            <div id="b71">Explore</div>
+        </li>
+        <li id="b2"> 
+            <a href=""><img id="bimg1" src="./Images/Covid.jpeg" alt="">
+            <div id="b21">COVID-19 Informat...</div>
+            </a>
+            <span id="vis">COVID-19 Informat...</span>
+        </li>
+        <li id="b2">
+           <a href=""> <img id="bimg1" src="./Images/Pages.jpeg" alt="">
+            <div id="b21">Pages</div>
+           </a>
+           <span id="vis">Pages</span>
+        </li>
+        <li id="b2">
+            <a href=""><img id="bimg1" src="./Images/Events.jpeg" alt="">
+            <div id="b21">Events</div>
+            </a>
+            <span id="vis">Events</span>
+        </li>
+        <li id="b2">
+           <a href=""> <img id="bimg" src="./Images/Fundraisers.jpeg" alt="">
+            <div id="b21">Fundraisers</div>
+           </a>
+           <span id="vis">Fundraisers</span>
+        </li>
+        <li id="b2">
+            <a href=""><img id="bimg" src="./Images/Groups.jpeg" alt="">
+            <div id="b21">Groups</div>
+            </a>
+            <span id="vis">Groups</span>
+        </li>
+        <li id="b4" onclick="downelements()">
+            <div id="b131" ><i class="fa fa-sort-desc" aria-hidden="true"></i>
+            <div id="b132">See More...</div></div>
+            <div id="b5">
+                <ul>
+                <li id="b2">
+                    <a href=""><img  id="bimg1" src="./Images/FriendList.jpeg" alt="">
+                    <div id="b22">Friend List</div></a>
+                    <span id="vis">Friend List</span>
+                </li>
+                <li id="b2">
+                    <a href=""><img id="bimg122" src="./Images/Games.jpeg" alt="">
+                    <div id="b22">Games</div></a>
+                    <span id="vis">Games</span>
+                </li>
+                <li id="b2">
+                    <a href=""><img id="bimg" src="./Images/Memories.jpeg" alt="">
+                    <div id="b22">Memories</div></a>
+                    <span id="vis">Memories</span>
+                </li>
+                <li id="b2">
+                    <a href=""><img id="bimg1" src="./Images/Jobs.jpeg" alt="">
+                    <div id="b22">Jobs</div></a>
+                    <span id="vis">Jobs</span>
+                </li>
+                <li id="b2">
+                    <a href=""><img id="bimg" src="./Images/Caampus.jpeg" alt="">
+                    <div id="b22">Campus</div></a>
+                    <span id="vis">Campus</span>
+                </li>
+                <li id="b2">
+                    <a href=""><img id="bimg" src="./Images/MessangerKids.jpeg" alt="">
+                    <div id="b22">Messenger Kids</div></a>
+                    <span id="vis">Messenger Kids</span>
+                </li>
+                <li id="b2">
+                    <a href=""><img id="bimg112" src="./Images/Live.jpeg" alt="">
+                    <div id="b22">Live Videos</div></a>
+                    <span id="vis">Live Videos</span>
+                </li>
+                <li id="b2">
+                    <a href=""><img id="bimg1"src="./Images/Weather.jpeg" alt="">
+                    <div id="b22"> Weather</div></a>
+                    <span id="vis">Weather</span>
+                </li>
+                <li id="b2">
+                    <a href=""><img id="bimg1"src="./Images/Saved.jpeg" alt="">
+                    <div id="b22">Saved</div></a>
+                    <span id="vis">Saved</span>
+                </li>
+                <li id="b2">
+                    <a href=""><img id="bimg1"src="./Images/Offers.jpeg" alt="">
+                    <div id="b22">Offers</div></a>
+                    <span id="vis">Offers</span>
+                </li>
+                <li id="b2">
+                    <a href=""><img id="bimg"src="./Images/Crisis.jpeg" alt="">
+                    <div id="b22">Crisis Response</div></a>
+                    <span id="vis">Crisis Response</span>
+                </li>
+                <li id="b2">
+                    <a href=""><img id="bimg1"src="./Images/FindFriends.jpeg" alt="">
+                    <div id="b22"> Find Friends</div></a>
+                    <span id="vis">Find Friends</span>
+                </li>
+                <li id="b2">
+                    <a href=""><img id="bimg1"src="./Images/GamingVideo.jpeg" alt="">
+                    <div id="b22"> Gaming Video</div></a>
+                    <span id="vis">Gaming Video</span>
+                </li>
+                <li id="b2">
+                    <a href=""><img id="bimg"src="./Images/Movies.jpeg" alt="">
+                    <div id="b22">Movies</div></a>
+                    <span id="vis">Movies</span>
+                </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+<!-- third part of the page -->
+<div id="c">
+    <div id="c1">
+        English (US) · 
+        <a href=""> తెలుగు </a>· 
+        <a href=""> اردو</a>· 
+        <a href=""> हिन्दी </a> ·
+        <br><a href=""> தமிழ்</a>
+    </div>
+    <div id="c2">
+        <a href=""><i class="fa fa-plus" aria-hidden="true"></i></a>
+    </div>
+    <div id="c3">
+        <a href="" >Privacy</a> ·
+        <a href="">Terms</a> · 
+        <a href="">Advertising</a> ·
+        <a href=""> Ad Choices</a>· 
+        <a href="">Cookies</a> · 
+        <a href="">More</a>
+        <div id="c6">
+            Facebook © 2020
+        </div>
+    </div>
+    <div id="c4" onclick="down1()"><i class="fa fa-sort-desc" aria-hidden="true">
+        <div id="c5">
+            <ul>
+                 <a href=""><li> About</li></a>
+                 <a href=""><li>Careers</li></a>
+                 <a href=""><li> Developers</li></a>
+                 <a href=""><li> Help</li></a>
+            </ul>
+        </div></i>
+    </div>
+</div>
+<!-- fourth part of the page side friend list bar -->
+<div id="d"></div>
+<div id="d1">
+    <div id="d2">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <input type="text" id="d3" placeholder="Search" >
+    </div>
+    <button id="prev">Prev</button>
+    <button id="next">next</button>
+    <div id="d31"></div>
+    <div id="d4">
+        <div id="d41">
+         <div id="d5">
+            <img src="./Images/Jithendra.jpg" alt="">
+            <div id="d51">Jithendra Nara</div>
+         </div>
+         <div id="d6">
+            <div id="d61"><img src="./Images/Jithendra.jpg" alt=""></div>
+            <div id="d62"><a href="">Jithendra Nara</a></div>
+            <div id="d63"><i class="fa fa-user-friends" aria-hidden="true"></i>
+            <span id="d631">15 mutual friends including <a>Sumanth</a> and <a>Sk Jilani</a>
+            </span></div>
+            <div id="d64"><i class="fas fa-graduation-cap"></i>
+            <span id="d641">Studying in <a>Lpu</a></span>
+            </div>
+         </div>
+        </div>
+        <div id="d41">
+            <div id="d5">
+               <img src="./Images/Sumanth.jpg" alt="">
+               <div id="d51">Sumanth Reddy</div>
+            </div>
+            <div id="d6">
+               <div id="d61"><img src="./Images/Sumanth.jpg" alt=""></div>
+               <div id="d62"><a href="">Sumanth Reddy</a></div>
+               <div id="d63"><i class="fa fa-user-friends" aria-hidden="true"></i>
+               <span id="d631">25 mutual friends including <a>Rgv</a> and <a>Sk Jilani</a>
+               </span></div>
+               <div id="d64"><i class="fas fa-graduation-cap"></i>
+               <span id="d641">Studying in <a>Lpu</a></span>
+               </div>
+            </div>
+           </div>
+        <div id="d41">
+            <div id="d5">
+               <img src="./Images/Roshan.jpg" alt="">
+               <div id="d51">Moghal Roshan Baig</div>
+            </div>
+            <div id="d6">
+               <div id="d61"><img src="./Images/Roshan.jpg" alt=""></div>
+               <div id="d62"><a href="">Moghal Roshan Baig</a></div>
+               <div id="d63"><i class="fa fa-user-friends" aria-hidden="true"></i>
+               <span id="d631">15 mutual friends including <a>Sumanth</a> and <a>Sk Jilani</a>
+               </span></div>
+               <div id="d64"><i class="fas fa-graduation-cap"></i>
+               <span id="d641">Studying in <a>Lpu</a></span>
+               </div>
+            </div>
+        </div>
+        <div id="d41">
+            <div id="d5">
+               <img src="./Images/Harsha.jpg" alt="">
+               <div id="d51">Hàršhá Kăsînædh</div>
+            </div>
+            <div id="d6">
+               <div id="d61"><img src="./Images/Harsha.jpg" alt=""></div>
+               <div id="d62"><a href="">Hàršhá Kăsînædh</a></div>
+               <div id="d63"><i class="fa fa-user-friends" aria-hidden="true"></i>
+               <span id="d631">15 mutual friends including <a>Sumanth</a> and <a>Sk Jilani</a>
+               </span></div>
+               <div id="d64"><i class="fas fa-graduation-cap"></i>
+               <span id="d641">Studying in <a>Lpu</a></span>
+               </div>
+            </div>
+           </div>
+           <div id="d41">
+            <div id="d5">
+               <img src="./Images/mubasheer.jpg" alt="">
+               <div id="d51">Mubasheer Ahmed Shaik</div>
+            </div>
+            <div id="d6">
+               <div id="d61"><img src="./Images/mubasheer.jpg" alt=""></div>
+               <div id="d62"><a href="">Mubasheer Ahmed Shaik</a></div>
+               <div id="d63"><i class="fa fa-user-friends" aria-hidden="true"></i>
+               <span id="d631">15 mutual friends including <a>Sumanth</a> and <a>Sk Jilani</a>
+               </span></div>
+               <div id="d64"><i class="fas fa-graduation-cap"></i>
+               <span id="d641">Studying in <a>Lpu</a></span>
+               </div>
+            </div>
+           </div>
+           <div id="d41">
+            <div id="d5">
+               <img src="./Images/vinesh.jpg" alt="">
+               <div id="d51">Vinesh Aluri</div>
+            </div>
+            <div id="d6">
+               <div id="d61"><img src="./Images/vinesh.jpg" alt=""></div>
+               <div id="d62"><a href="">Vinesh Aluri</a></div>
+               <div id="d63"><i class="fa fa-user-friends" aria-hidden="true"></i>
+               <span id="d631">15 mutual friends including <a>Sumanth</a> and <a>Sk Jilani</a>
+               </span></div>
+               <div id="d64"><i class="fas fa-graduation-cap"></i>
+               <span id="d641">Studying in <a>Lpu</a></span>
+               </div>
+            </div>
+           </div>
+           <div id="d41">
+            <div id="d5">
+               <img src="./Images/viratkohli.jpg" alt="">
+               <div id="d51">Viratkohli </div>
+            </div>
+            <div id="d6">
+               <div id="d61"><img src="./Images/viratkohli.jpg" alt=""></div>
+               <div id="d62"><a href="">Viratkohli</a></div>
+               <div id="d63"><i class="fa fa-user-friends" aria-hidden="true"></i>
+               <span id="d631">15 mutual friends including <a>Sumanth</a> and <a>Sk Jilani</a>
+               </span></div>
+               <div id="d64"><i class="fas fa-graduation-cap"></i>
+               <span id="d641">Studying in <a>Lpu</a></span>
+               </div>
+            </div>
+           </div>
+           <div id="d41">
+            <div id="d5">
+               <img src="./Images/rohitsharma.png" alt="">
+               <div id="d51">rohitsharma</div>
+            </div>
+            <div id="d6">
+               <div id="d61"><img src="./Images/rohitsharma.png" alt=""></div>
+               <div id="d62"><a href="">rohitsharma</a></div>
+               <div id="d63"><i class="fa fa-user-friends" aria-hidden="true"></i>
+               <span id="d631">15 mutual friends including <a>Sumanth</a> and <a>Sk Jilani</a>
+               </span></div>
+               <div id="d64"><i class="fas fa-graduation-cap"></i>
+               <span id="d641">Studying in <a>Lpu</a></span>
+               </div>
+            </div>
+           </div>
+           <div id="d41">
+            <div id="d5">
+               <img src="./Images/Cristianoronaldo.jpg" alt="">
+               <div id="d51">Cristianoronaldo</div>
+            </div>
+            <div id="d6">
+               <div id="d61"><img src="./Images/Cristianoronaldo.jpg" alt=""></div>
+               <div id="d62"><a href="">Cristianoronaldo</a></div>
+               <div id="d63"><i class="fa fa-user-friends" aria-hidden="true"></i>
+               <span id="d631">15 mutual friends including <a>Sumanth</a> and <a>Sk Jilani</a>
+               </span></div>
+               <div id="d64"><i class="fas fa-graduation-cap"></i>
+               <span id="d641">Studying in <a>Lpu</a></span>
+               </div>
+            </div>
+           </div>
+           <div id="d41">
+            <div id="d5">
+               <img src="./Images/messi.jpg" alt="">
+               <div id="d51">messi</div>
+            </div>
+            <div id="d6">
+               <div id="d61"><img src="./Images/messi.jpg" alt=""></div>
+               <div id="d62"><a href="">messi</a></div>
+               <div id="d63"><i class="fa fa-user-friends" aria-hidden="true"></i>
+               <span id="d631">15 mutual friends including <a>Sumanth</a> and <a>Sk Jilani</a>
+               </span></div>
+               <div id="d64"><i class="fas fa-graduation-cap"></i>
+               <span id="d641">Studying in <a>Lpu</a></span>
+               </div>
+            </div>
+           </div>
+           <div id="d41">
+            <div id="d5">
+               <img src="./Images/prabhas.jpg" alt="">
+               <div id="d51">prabhas</div>
+            </div>
+            <div id="d6">
+               <div id="d61"><img src="./Images/prabhas.jpg" alt=""></div>
+               <div id="d62"><a href="">prabhas</a></div>
+               <div id="d63"><i class="fa fa-user-friends" aria-hidden="true"></i>
+               <span id="d631">15 mutual friends including <a>Sumanth</a> and <a>Sk Jilani</a>
+               </span></div>
+               <div id="d64"><i class="fas fa-graduation-cap"></i>
+               <span id="d641">Studying in <a>Lpu</a></span>
+               </div>
+            </div>
+           </div>
+           <div id="d41">
+            <div id="d5">
+               <img src="./Images/rajini.jpg" alt="">
+               <div id="d51">Rajini Mawa</div>
+            </div>
+            <div id="d66">
+               <div id="d61"><img src="./Images/rajini.jpg" alt=""></div>
+               <div id="d62"><a href="">Rajini Mawa</a></div>
+               <div id="d63"><i class="fa fa-user-friends" aria-hidden="true"></i>
+               <span id="d631">15 mutual friends including <a>Sumanth</a> and <a>Sk Jilani</a>
+               </span></div>
+               <div id="d64"><i class="fas fa-graduation-cap"></i>
+               <span id="d641">Studying in <a>Lpu</a></span>
+               </div>
+            </div>
+           </div>
+    </div>
+    <div id="d7">GROUP CONVERSATIONS</div>
+    <div id="d8">
+        <a href=""><div id="d9"><div id="d10"><i class="fa fa-user-friends" aria-hidden="true"></i></div>
+            <div id="d11">Create New Group</div>
+        </div></a>
+        <span id="vis">Create New Group 
+        </span>
+    </div>
+</div>
+<!-- fifth part of the page  -->
+<div id="e">
+    <div id="e1">
+        <a href="">Create Post</a>
+    </div>
+    <form>
+    <div id="e2">
+        <img src="./Images/mubasheer.jpg" alt="">
+        <div id="e3">
+            <input id="e31" type="text" placeholder=" What's on your mind, Mubasheer?" autocomplete="off">
+        </div>
+        <div id="e4"></div>
+        <div id="e5">
+            <a href="">
+                <div id="e6">
+                    <img src="./Images/createroom.jpeg" alt=""><div id="e7">Create Room</div>
+                </div></a>
+            <a href="">
+                <div id="e8">
+                    <img src="./Images/PhotosVideos.jpeg" alt=""><div id="e9">Photos/Video</div>
+                </div></a>
+            <a href="">
+                <div id="e10">
+                    <img src="./Images/Tag Friends.jpeg" alt=""><div id="e11">Tag Friends</div>
+                </div></a>
+        </div>
+    </div>
+    </form>
+    <div id="e12">
+        <div id="e13">
+            <b>Rooms</b> <div id="e14">· Video chat with friends</div> 
+            <div id="e15"><a href=""><i class="fas fa-info-circle"></i></a>
+            <span id="vis">learn How Rooms Work</span></div>
+            <div id="e16"><a href=""> Create Room</a></div>
+         </div>
+         <div id="e17">
+            <a href=""><div id="e18"><img src="./Images/+.jpeg" alt=""></div></a>
+            <a href=""><div id="e18"><img src="./Images/Jithendra.jpg" alt=""><div id="e19"></div></div></a>
+            <a href=""><div id="e18"><img src="./Images/Sumanth.jpg" alt=""><div id="e19"></div></div></a>
+            <a href=""><div id="e18"><img src="./Images/Roshan.jpg" alt=""><div id="e19"></div></div></a>
+         </div>
+    </div>
+    <div id="e20">
+        <div id="e21"><a>Stories</a><span id="vis">Stories are photos and videos that are visible for 24 hours. When someone adds to a story, i'll show up here.</span></div>
+        <div id="e22"><a href="">See All</a></div>
+        <div id="e23">
+            <div id="e24">
+                <a href=""><div id="e25"><div id="e26">+</div></div><img src="./Images/mubasheer.jpg916ratio.jpeg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div id="e27">
+    </div>
+</div>
+</body>
+<script src="facebookmain.js">
+</script>
+</html>
